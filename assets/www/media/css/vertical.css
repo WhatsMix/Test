@@ -1,0 +1,84 @@
+.vertical #app {
+  height: 1024px;
+  /* text area height */
+  width: 768px;
+  /* text area width */ }
+.vertical #logo {
+  padding-left: 210px; }
+.vertical #loading-background {
+  width: 768px;
+  height: 1024px; }
+.vertical #loading {
+  left: 300px;
+  top: 430px; }
+.vertical #popup {
+  width: 768px;
+  height: 1024px; }
+.vertical #popup-content {
+  width: 700px;
+  left: 22px; }
+.vertical #popup-closer {
+  left: 702px; }
+.vertical .contact-message {
+  width: 667px; }
+.vertical #page.main #buttons .button {
+  margin: 71px 10px 0px 25px; }
+.vertical #page.main #buttons form.login {
+  margin: 30px 10px 0px 25px; }
+.vertical #page.main #slideshow {
+  margin-left: -128px; }
+  .vertical #page.main #slideshow .arrow-right {
+    left: 840px; }
+  .vertical #page.main #slideshow .arrow-left {
+    left: 155px; }
+.vertical form.account .left {
+  float: left;
+  width: 350px;
+  margin-top: -10px; }
+.vertical form.account .right {
+  float: left;
+  width: 350px !important;
+  margin-top: -10px; }
+.vertical #page.orders .orders {
+  width: 725px;
+  left: 20px;
+  height: 790px; }
+.vertical #page.other .box {
+  width: 550px;
+  margin: 15px 90px 0px 90px; }
+.vertical #page.map #map {
+  width: 768px !important;
+  height: 906px !important; }
+.vertical #page.menu {
+  margin-top: 0px; }
+  .vertical #page.menu .box {
+    width: 580px;
+    height: 160px; }
+.vertical #page.catalog .product-categories {
+  height: 820px; }
+  .vertical #page.catalog .product-categories .template.product-category {
+    width: 585px;
+    margin: 10px 90px 0px 90px; }
+    .vertical #page.catalog .product-categories .template.product-category .img {
+      width: 128px;
+      height: 90px; }
+    .vertical #page.catalog .product-categories .template.product-category img {
+      max-width: 128px;
+      max-height: 90px; }
+.vertical #page.catalog .product-categories-vertical {
+  height: 828px; }
+.vertical #page.catalog .products {
+  height: 819px;
+  width: 200px; }
+  .vertical #page.catalog .products .template.product {
+    font-size: 15px; }
+.vertical #page.catalog .product-full {
+  left: 350px;
+  height: 720px; }
+.vertical #page.catalog .cart {
+  top: 872px; }
+.vertical #page.cart .pay {
+  margin-left: 195px; }
+.vertical #page.cart .products {
+  width: 665px;
+  left: 50px; }
