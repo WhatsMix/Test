@@ -1,0 +1,60 @@
+form input {
+  border: 1px solid #cbcac4;
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding: 3px 6px 3px 6px;
+  margin: 1px; }
+form input[type="checkbox"] {
+  width: 20px; }
+form input[type="button"] {
+  border: 1px solid #ec394d;
+  background-color: #FB5968;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 0.16em;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  padding: 0 10px; }
+form textarea {
+  border: 1px solid #cbcac4;
+  border-radius: 5px;
+  width: 208px; }
+form .title {
+  border-bottom: 3px solid #f2f1ec;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  text-align: center; }
+
+fieldset {
+  border: none;
+  background-color: #F2F1EC;
+  padding: 0px;
+  margin: 0px; }
+  fieldset h1 {
+    text-align: left;
+    background-color: #A4A39E;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    letter-spacing: 0.085em;
+    font-size: 14px;
+    text-transform: uppercase; }
+  fieldset .row {
+    margin: 10px; }
+  fieldset label {
+    float: left;
+    width: 150px;
+    display: block;
+    padding: 10px; }

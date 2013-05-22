@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        
+        <meta name="viewport" content="user-scalable=0, initial-scale=1, width=device-width" />
+
+        <link rel="stylesheet" type="text/css" href="media/css/index.css" />
+        <link rel="stylesheet" type="text/css" href="media/css/form.css" />
+        <link rel="stylesheet" type="text/css" href="media/css/pages.css" />
+        <link rel="stylesheet" type="text/css" href="media/css/components.css" />
+        <link rel="stylesheet" type="text/css" href="media/css/vertical.css" />
+        <link rel="stylesheet" type="text/css" href="media/css/android.css" />
+
+        <title>O-Peyi</title>
+
+        
+
+        <script type="text/javascript" src="media/lib/cordova-2.2.0.js"></script>
+        <script type="text/javascript" src="media/lib/jquery-1.8.3.js"></script>
+        <script type="text/javascript" src="media/lib/jquery-mobile-1.2.0.js"></script>
+        <script type="text/javascript" src="media/lib/jquery.iosslider.min.js"></script>
+        <script type="text/javascript" src="media/lib/iscroll-lite.js"></script>
+        
+        <script type="text/javascript" src="android.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+
+        <script type="text/javascript" src="media/js/db.js"></script>
+        <script type="text/javascript" src="media/js/api.js"></script>
+        <script type="text/javascript" src="media/js/tools.js"></script>
+        <script type="text/javascript" src="media/js/date.js"></script>
+
+        <script type="text/javascript" src="controller/home.js"></script>
+        <script type="text/javascript" src="controller/contact.js"></script>
+        <script type="text/javascript" src="controller/search.js"></script>
+        <script type="text/javascript" src="controller/ad.js"></script>
+        <script type="text/javascript" src="controller/categories.js"></script>
+        <script type="text/javascript" src="controller/terms.js"></script>
+        <script type="text/javascript" src="controller/listing.js"></script>
+        <script type="text/javascript" src="controller/event.js"></script>
+        <script type="text/javascript" src="controller/message.js"></script>
+        
+        <script type="text/javascript" src="controller/config.js"></script>
+
+
+        <script type="text/javascript">
+            app.init();
+            
+        </script>
+    </head>
+    <body >
+        
+        
+        <div id="app">
+            <div id="view" class="loading" >
+                <div style="margin:50px auto;width: 100px;">Chargement ...</div>
+                
+            </div>
+            <div id="toast">
+                Toast Message
+            </div>
+        </div>
+
+
+        <div id="loading-background"></div>
+        <div id="loading"><div class="loadingtitle">Chargement</div><img src="media/img/ajax-loader.gif"/></div>
+
+        <div style="display: none">
+            <img src="media/img/menu-bg-640x920.jpg"/>
+            <img src="media/img/bg_guadeloupe.jpg"/>
+            <img src="media/img/bg_guyane.jpg"/>
+            <img src="media/img/bg_martinique.jpg"/>
+            <img src="media/img/bg_reunion.jpg"/>
+        </div>
+
+        <div id="ad" style="width: 640px;height: 920px;visibility: hidden;overflow: hidden">
+            <img src="http://opeyi.net/mobile/ad1.png" class="island1"/>
+            <img src="http://opeyi.net/mobile/ad2.png" class="island2"/>
+            <img src="http://opeyi.net/mobile/ad3.png" class="island3"/>
+            <img src="http://opeyi.net/mobile/ad4.png" class="island4"/>
+            
+        </div>
+        <div id="iframe">
+            <iframe></iframe>
+        </div>
+
+    </body>
+</html>

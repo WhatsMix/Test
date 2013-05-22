@@ -1,0 +1,74 @@
+$red: #FB5968; 
+$pale: #F2F1EC;
+$grey: #A4A39E;
+
+form{
+    input{
+        border: 1px solid #CBCAC4;
+        border-radius: 5px;
+        width: 200px;
+        height: 20px;
+        font-size: 14px;
+        padding: 3px 6px 3px 6px;
+        margin: 1px;
+    }
+    input[type="checkbox"]{
+        width: 20px;
+    }
+    input[type="button"]{
+        border: 1px solid #EC394D;
+        background-color: #FB5968;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 0.16em;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        height: 28px;
+        line-height: 28px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -khtml-border-radius: 2px;
+        border-radius: 2px;
+        padding: 0 10px;
+    }
+textarea{
+border: 1px solid #cbcac4;
+border-radius: 5px;
+width: 208px
+}
+    .title{
+        border-bottom: 3px solid $pale;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+fieldset{
+    border: none;
+    background-color: #F2F1EC;
+    padding: 0px;
+    margin: 0px;
+    h1{
+text-align: left;
+        background-color: #A4A39E;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+        letter-spacing: 0.085em;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .row{
+        margin: 10px;
+    }
+    label{
+        float: left; 
+        width: 150px;
+        display: block;
+        padding: 10px;
+    }
+}
